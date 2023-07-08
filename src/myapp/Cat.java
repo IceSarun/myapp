@@ -2,13 +2,17 @@ package myapp;
 
 public class Cat {
     private String nameCat;
-    private int age;
-
+    private String catAge;
+    private String catWeight;
     public String getNameCat() {
         return nameCat;
     }
 
-    public int getAge() {
-        return age;
+    public String getCatAge() {
+        return catAge;
+    }
+
+    public String getCatWeight() {
+        return catWeight;
     }
 }
